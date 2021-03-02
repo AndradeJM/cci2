@@ -1,8 +1,3 @@
-<!--
-    user: mauricio.rocha
-    senha: Km2kX%
--->
-
 # Tutorial - Acesso Remoto - CCI 2
 
 ## 1. Conectar na VPN da UFRGS
