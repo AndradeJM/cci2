@@ -9,7 +9,7 @@ sudo apt-get update; sudo apt-get install openvpn -y
 
 ### 1.2 - Configurando o OpenVPN: 
   
-    Realize o download do arquivo de configuração dentro do portal do Servidor/Aluno em: <br>
+    Realize o download do arquivo de configuração dentro do portal do Servidor/Aluno em: 
     Geral > Catálogo de Serviços > Chasque > VPN > Ativação/Informação > Link: "Somente arquivo de configuração (Multiplataforma)."**
     Após realizar o download do arquivo **VPN-UFRGS.ovpn** mova-o para o diretório do seu projeto.
 
