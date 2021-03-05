@@ -1,24 +1,26 @@
 # Tutorial - Acesso Remoto - CCI 2
 
-## 1 - Instalar o OpenVPN:
+## 1 - Instalar e configurar o OpenVPN:
 
-- Instale o OpenVPN com o comando a seguir:
+### 1.1 - Instale o OpenVPN com o comando a seguir:
 ~~~shell
 sudo apt-get update; sudo apt-get install openvpn -y
 ~~~
 
-- Realize o download do arquivo de configuração dentro do portal do Servidor/Aluno em: <br>
-Geral > Catálogo de Serviços > Chasque > VPN > Ativação/Informação > Link: "Somente arquivo de configuração (Multiplataforma)."**
-- Após realizar o download do arquivo **VPN-UFRGS.ovpn** mova-o para o diretório do seu projeto.
+### 1.2 - Configurando o OpenVPN: 
+  
+    Realize o download do arquivo de configuração dentro do portal do Servidor/Aluno em: <br>
+    Geral > Catálogo de Serviços > Chasque > VPN > Ativação/Informação > Link: "Somente arquivo de configuração (Multiplataforma)."**
+    Após realizar o download do arquivo **VPN-UFRGS.ovpn** mova-o para o diretório do seu projeto.
 
 ## 2 - Instalar o VNC Viewer:
 
-- Podemos baixar o VNC Viewer acessando o site: https://www.realvnc.com/pt/connect/download/viewer/
+    Podemos baixar o VNC Viewer acessando o site: https://www.realvnc.com/pt/connect/download/viewer/
 
 
 ## 3 - Conectando na VPN:
 
-#### 3.1 - Abra o primeiro terminal:
+### 3.1 - Abra o primeiro terminal:
 
 - Vá até o diretório do seu projeto e digite:
 ~~~shell
