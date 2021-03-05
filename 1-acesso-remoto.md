@@ -1,29 +1,28 @@
 # Tutorial - Acesso Remoto - CCI 2
 
-## 1 Instalar o OpenVPN:
+## 1 - Instalar o OpenVPN:
 
 - Instale o OpenVPN com o comando a seguir:
-
 ~~~shell
 sudo apt-get update; sudo apt-get install openvpn -y
 ~~~
 
 - Realize o download do arquivo de configuração dentro do portal do Servidor/Aluno em: <br>
-**Geral > Catálogo de Serviços > Chasque > VPN > Ativação/Informação > Link: "Somente arquivo de configuração (Multiplataforma)."**
+Geral > Catálogo de Serviços > Chasque > VPN > Ativação/Informação > Link: "Somente arquivo de configuração (Multiplataforma)."**
 - Após realizar o download do arquivo **VPN-UFRGS.ovpn** mova-o para o diretório do seu projeto.
 
-## 2 Instalar o VNC Viewer:
+## 2 - Instalar o VNC Viewer:
 
 - Podemos baixar o VNC Viewer acessando o site: https://www.realvnc.com/pt/connect/download/viewer/
 
 
-## 3 Conectando na VPN:
+## 3 - Conectando na VPN:
 
 #### 3.1 - Abra o primeiro terminal:
 
 - Vá até o diretório do seu projeto e digite:
 ~~~shell
-sudo openvpn --config VPN-UFRGS.ovpn
+  sudo openvpn --config VPN-UFRGS.ovpn
 ~~~
 
 - Insira a senha para sudo do seu usuário;
@@ -40,14 +39,14 @@ sudo openvpn --config VPN-UFRGS.ovpn
 
 - Digite:
 ~~~shell
-ssh seuUsuario@pgmicro01.ufrgs.br
-# forneça a senha obtida com o formiga
+  ssh seuUsuario@pgmicro01.ufrgs.br
+  # forneça a senha obtida com o formiga
 ~~~
 
 - Digite:
 ~~~shell
-vncserver -geometry 1920x1080 -depth 24
-# forneça um password para acessar
+  vncserver -geometry 1920x1080 -depth 24
+  # forneça um password para acessar
 ~~~
 > Note que 1920x1080 é a resolução desejada e -depth poderia ser 8, 16 ou 24
 
@@ -61,7 +60,7 @@ vncserver -geometry 1920x1080 -depth 24
 
 - Digite:
 ~~~shell
-ssh -L 6000:localhost:5926 seuUsuario@pgmicro01.ufrgs.br
+  ssh -L 6000:localhost:5926 seuUsuario@pgmicro01.ufrgs.br
 ~~~
 > Note que fizemos 5900 + X = 5926
 >
