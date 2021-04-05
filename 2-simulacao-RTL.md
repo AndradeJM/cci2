@@ -1,3 +1,7 @@
+# Resumo - apresentacao 1:
+- CPU Interface:
+![CPU Interface](./img/CPU-core-interface-ports.png)
+
 # Simulação RTL:
 
     objetivo da simulacao RTL - provar que a descriçao RTL esta correta
